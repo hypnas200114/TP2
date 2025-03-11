@@ -7,8 +7,10 @@ public class PlayerControl : MonoBehaviour
     InputAction rotateMap;
     float rotation;
 
+
     [Header("Valeurs")]
     public float speed = 1;
+    public Animator animationPersonnage;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -27,7 +29,6 @@ public class PlayerControl : MonoBehaviour
         rotation += -_valeurInput * speed;
         //Met a jour la rotation
         transform.rotation = Quaternion.Euler(0, 0, rotation);
-
 
     }
 }

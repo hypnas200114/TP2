@@ -11596,6 +11596,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 1
   animationPersonnage: {fileID: 482819492}
+  menuManager: {fileID: 0}
 --- !u!114 &690390999
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14623,7 +14624,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &258102460698516091
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14739,8 +14740,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 5749175912669954679}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.4994995, y: 0}
+  m_AnchorMax: {x: 0.4994995, y: 1}
   m_AnchoredPosition: {x: -0.000061035156, y: 0}
   m_SizeDelta: {x: 52.86084, y: -17.567795}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -15315,9 +15316,9 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1663196967161148047}
   m_Enabled: 1
-  m_Alpha: 1
-  m_Interactable: 1
-  m_BlocksRaycasts: 1
+  m_Alpha: 0
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
 --- !u!222 &1603144438071458594
 CanvasRenderer:
@@ -15519,7 +15520,7 @@ RectTransform:
   m_Father: {fileID: 8850014965849610649}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0.4994995, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -15622,8 +15623,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 6096118203053439592}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.4994995, y: 0}
+  m_AnchorMax: {x: 0.4994995, y: 1}
   m_AnchoredPosition: {x: -0.000061035156, y: 0}
   m_SizeDelta: {x: 52.86084, y: -17.567795}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -15635,9 +15636,9 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6171124434989510185}
   m_Enabled: 1
-  m_Alpha: 1
-  m_Interactable: 1
-  m_BlocksRaycasts: 1
+  m_Alpha: 0
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
 --- !u!1 &2774710594710681032
 GameObject:
@@ -15688,7 +15689,7 @@ RectTransform:
   m_Father: {fileID: 4366684274852853147}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0.4994995, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -15706,8 +15707,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 3356043503211095219}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.4994995, y: 0}
+  m_AnchorMax: {x: 0.4994995, y: 1}
   m_AnchoredPosition: {x: -0.000061035156, y: 0}
   m_SizeDelta: {x: 52.86084, y: -17.567795}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -17072,7 +17073,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f20e89aef030044ab9ccd2217ce766c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EventSys: {fileID: 0}
+  EventSys: {fileID: 8622626408645993764}
   AudioMixerPrincipale: {fileID: 24100000, guid: 4c9d5d3557926bd4792ec63aaa3344a4, type: 2}
   CGMenuPrincipale: {fileID: 1547489049819027257}
   CGMenuParametre: {fileID: 2749970534074522758}
@@ -17422,7 +17423,7 @@ RectTransform:
   m_Father: {fileID: 8251746670987660334}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0.4994995, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}

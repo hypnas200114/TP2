@@ -22,13 +22,16 @@ public class MenuManager : MonoBehaviour
     public GameObject FSMenuPrincipale;
     public GameObject FSMenuParametre;
 
+    private PlayerControl playerControl;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        //Initialise le menu
-        BtnRetour_OnClick();
+        //Initialise le menu.
+   
+            BtnRetour_OnClick();
+
     }
 
     // Update is called once per frame
@@ -117,5 +120,23 @@ public class MenuManager : MonoBehaviour
     public void SldSonsSFX_OnChange(float _value)
     {
         AudioMixerPrincipale.SetFloat("SFXVolume", Mathf.Log(_value) * 20);
+    }
+
+    public void MenuPause(PlayerControl _playerControl)
+    {
+        BtnRetour_OnClick();
+        playerControl = _playerControl;
+    }
+
+    public void Resume()
+    {
+        //recommence le temps
+        Time.timeScale = 1;
+        //Reactive les controle du joueur
+        playerControl.enabled = true;
+
+        //Cache le menu
+        this.gameObject.SetActive(false);
+
     }
 }

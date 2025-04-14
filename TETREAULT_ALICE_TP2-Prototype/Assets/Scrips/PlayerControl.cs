@@ -5,6 +5,7 @@ public class PlayerControl : MonoBehaviour
 {
     //Declare les variables necesaires 
     InputAction rotateMap;
+    InputAction pause;
     float rotation;
 
 
@@ -12,12 +13,17 @@ public class PlayerControl : MonoBehaviour
     public float speed = 1;
     public Animator animationPersonnage;
 
+    [Header("Pause")]
+    public MenuManager menuManager;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         //initie les variables et inputs
         rotateMap = InputSystem.actions.FindAction("Rotate");
+        pause = InputSystem.actions.FindAction("Pause");
         rotation = 0;
+
     }
 
     // Update is called once per frame
@@ -30,5 +36,19 @@ public class PlayerControl : MonoBehaviour
         //Met a jour la rotation
         transform.rotation = Quaternion.Euler(0, 0, rotation);
 
+    }
+
+    /// <summary>
+    /// Met le jeu sur pause
+    /// </summary>
+    public void Pause()
+    {
+        //Stops Time
+        Time.timeScale = 0;
+        //Ouvre Menu Pause
+        menuManager.MenuPause(this);
+
+        //Arrete les interaction du joueur sur le jeu
+        enabled = false;
     }
 }

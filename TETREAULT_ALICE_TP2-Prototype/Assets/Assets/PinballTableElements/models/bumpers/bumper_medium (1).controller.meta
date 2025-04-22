@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b034aecf83908cd498933f9002a40ed0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196794
+  packageName: Pinball Table Elements
+  packageVersion: 1.0.2
+  assetPath: Assets/PinballTableElements/models/bumpers/bumper_medium (1).controller
+  uploadId: 551150

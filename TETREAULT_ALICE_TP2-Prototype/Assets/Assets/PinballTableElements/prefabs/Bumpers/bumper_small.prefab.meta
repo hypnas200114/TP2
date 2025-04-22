@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7715b979277ced34c8c3644a3b03d04d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196794
+  packageName: Pinball Table Elements
+  packageVersion: 1.0.2
+  assetPath: Assets/PinballTableElements/prefabs/Bumpers/bumper_small.prefab
+  uploadId: 551150

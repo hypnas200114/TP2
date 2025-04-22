@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: fe9b121c6aa3079438f604f7a867e17d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196794
+  packageName: Pinball Table Elements
+  packageVersion: 1.0.2
+  assetPath: Assets/PinballTableElements/prefabs/Rails/Rails_180deg_variation.prefab
+  uploadId: 551150

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bb81af6478cf86144828744f6bea57a5
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196794
+  packageName: Pinball Table Elements
+  packageVersion: 1.0.2
+  assetPath: Assets/PinballTableElements/prefabs/Bumpers/block_round_corners.prefab
+  uploadId: 551150

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 77969effa7f2a5a4b9949fe18e3a039f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196794
+  packageName: Pinball Table Elements
+  packageVersion: 1.0.2
+  assetPath: Assets/PinballTableElements/prefabs/Sprites/Jackpot.prefab
+  uploadId: 551150

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 701a6e8173f3e894a959a79e9347eb22
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196794
+  packageName: Pinball Table Elements
+  packageVersion: 1.0.2
+  assetPath: Assets/PinballTableElements/prefabs/Bumpers/block_bumper_big.prefab
+  uploadId: 551150

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a40b6b9e3942f1143a7b2786144cd2b2
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196794
+  packageName: Pinball Table Elements
+  packageVersion: 1.0.2
+  assetPath: Assets/PinballTableElements/prefabs/Rails/Rails_up_45deg_variation.prefab
+  uploadId: 551150

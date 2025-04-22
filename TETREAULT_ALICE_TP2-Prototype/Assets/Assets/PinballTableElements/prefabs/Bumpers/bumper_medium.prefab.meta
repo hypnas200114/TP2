@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4e5d00e1a89abed418de00fb33af4aa4
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196794
+  packageName: Pinball Table Elements
+  packageVersion: 1.0.2
+  assetPath: Assets/PinballTableElements/prefabs/Bumpers/bumper_medium.prefab
+  uploadId: 551150

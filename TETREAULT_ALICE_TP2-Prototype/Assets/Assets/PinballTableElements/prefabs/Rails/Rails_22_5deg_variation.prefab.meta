@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7147174d88c2bc84e94dfd1edaacf5b3
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196794
+  packageName: Pinball Table Elements
+  packageVersion: 1.0.2
+  assetPath: Assets/PinballTableElements/prefabs/Rails/Rails_22_5deg_variation.prefab
+  uploadId: 551150

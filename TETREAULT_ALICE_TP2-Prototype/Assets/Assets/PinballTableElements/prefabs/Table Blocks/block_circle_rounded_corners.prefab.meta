@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8e5871872184e0545948be240fdf016b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196794
+  packageName: Pinball Table Elements
+  packageVersion: 1.0.2
+  assetPath: Assets/PinballTableElements/prefabs/Table Blocks/block_circle_rounded_corners.prefab
+  uploadId: 551150

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 731a50b89355b044381d6fa444410069
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196794
+  packageName: Pinball Table Elements
+  packageVersion: 1.0.2
+  assetPath: Assets/PinballTableElements/scripts/demoTargetBlink.cs
+  uploadId: 551150

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4e5364b5aeb3f8f45bf100d6c96a5096
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196794
+  packageName: Pinball Table Elements
+  packageVersion: 1.0.2
+  assetPath: Assets/PinballTableElements/prefabs/Table Blocks/block_bulge.prefab
+  uploadId: 551150

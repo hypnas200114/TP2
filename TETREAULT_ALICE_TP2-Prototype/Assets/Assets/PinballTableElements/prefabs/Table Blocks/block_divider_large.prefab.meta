@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9a6bccea62184bd438a022c1c7cee06a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196794
+  packageName: Pinball Table Elements
+  packageVersion: 1.0.2
+  assetPath: Assets/PinballTableElements/prefabs/Table Blocks/block_divider_large.prefab
+  uploadId: 551150

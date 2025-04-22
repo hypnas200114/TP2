@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8690c0be51782414db3dd51f838108d5
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196794
+  packageName: Pinball Table Elements
+  packageVersion: 1.0.2
+  assetPath: Assets/PinballTableElements/prefabs/Rails/Rails_90deg_variation.prefab
+  uploadId: 551150

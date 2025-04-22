@@ -16,13 +16,19 @@ public class PlayerControl : MonoBehaviour
     [Header("Pause")]
     public MenuManager menuManager;
 
+    
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        
         //initie les variables et inputs
         rotateMap = InputSystem.actions.FindAction("Rotate");
         pause = InputSystem.actions.FindAction("Pause");
         rotation = 0;
+        pause.Enable();
+        pause.performed += Pause_OnPress;
+
 
     }
 
@@ -41,7 +47,7 @@ public class PlayerControl : MonoBehaviour
     /// <summary>
     /// Met le jeu sur pause
     /// </summary>
-    public void Pause()
+    public void Pause_OnPress(InputAction.CallbackContext _context)
     {
         //Stops Time
         Time.timeScale = 0;

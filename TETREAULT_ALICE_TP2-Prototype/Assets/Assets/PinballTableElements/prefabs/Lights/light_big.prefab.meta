@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 98b8e034b254d2a40b2ec16faba7c2d4
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196794
+  packageName: Pinball Table Elements
+  packageVersion: 1.0.2
+  assetPath: Assets/PinballTableElements/prefabs/Lights/light_big.prefab
+  uploadId: 551150

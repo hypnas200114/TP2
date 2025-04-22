@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 11df9ad399a0a644f81755465683131e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196794
+  packageName: Pinball Table Elements
+  packageVersion: 1.0.2
+  assetPath: Assets/PinballTableElements/prefabs/Sprites/get_ready.prefab
+  uploadId: 551150

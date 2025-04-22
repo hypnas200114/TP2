@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1dc85b7cf7d94e046b9b40f42ff2ab07
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196794
+  packageName: Pinball Table Elements
+  packageVersion: 1.0.2
+  assetPath: Assets/PinballTableElements/prefabs/Sprites/Extra Ball.prefab
+  uploadId: 551150

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 86f0fa732b165894a8084fb170bc5316
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196794
+  packageName: Pinball Table Elements
+  packageVersion: 1.0.2
+  assetPath: Assets/PinballTableElements/prefabs/Table Blocks/block_2.prefab
+  uploadId: 551150

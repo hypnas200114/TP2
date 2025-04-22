@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7bf50e354ef4cf6449e54802cff840e4
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196794
+  packageName: Pinball Table Elements
+  packageVersion: 1.0.2
+  assetPath: Assets/PinballTableElements/prefabs/Table Blocks/block_table_bottom_divider.prefab
+  uploadId: 551150

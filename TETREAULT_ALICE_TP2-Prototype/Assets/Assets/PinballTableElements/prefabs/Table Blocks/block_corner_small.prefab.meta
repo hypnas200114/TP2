@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d04f5c63072d046488efed903efe3660
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196794
+  packageName: Pinball Table Elements
+  packageVersion: 1.0.2
+  assetPath: Assets/PinballTableElements/prefabs/Table Blocks/block_corner_small.prefab
+  uploadId: 551150

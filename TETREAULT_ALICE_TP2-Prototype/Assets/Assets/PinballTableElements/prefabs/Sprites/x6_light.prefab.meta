@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 51ba83111947c534c8296509a0250292
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196794
+  packageName: Pinball Table Elements
+  packageVersion: 1.0.2
+  assetPath: Assets/PinballTableElements/prefabs/Sprites/x6_light.prefab
+  uploadId: 551150

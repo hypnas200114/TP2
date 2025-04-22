@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 915ed1eaf7f962943a7cd0c522faf794
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196794
+  packageName: Pinball Table Elements
+  packageVersion: 1.0.2
+  assetPath: Assets/PinballTableElements/prefabs/Sprites/x3_light.prefab
+  uploadId: 551150

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 62e4585f6ea012a4f893631b76bbb173
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196794
+  packageName: Pinball Table Elements
+  packageVersion: 1.0.2
+  assetPath: Assets/PinballTableElements/prefabs/Table Blocks/block_half_circle.prefab
+  uploadId: 551150

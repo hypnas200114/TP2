@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 88f64fc0b0f111848bd101334cdefdcc
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196794
+  packageName: Pinball Table Elements
+  packageVersion: 1.0.2
+  assetPath: Assets/PinballTableElements/prefabs/Rails/Rails_up_90deg.prefab
+  uploadId: 551150

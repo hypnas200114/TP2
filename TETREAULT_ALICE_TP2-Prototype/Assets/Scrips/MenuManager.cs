@@ -16,21 +16,43 @@ public class MenuManager : MonoBehaviour
     [Header("CanvasGroup")]
     public CanvasGroup CGMenuPrincipale;
     public CanvasGroup CGMenuParametre;
+    public CanvasGroup CGMenuLevel;
 
     //Instenciation des premiers selectionner (Pour l`unitlisation de la manette)
     [Header("First Selected")]
     public GameObject FSMenuPrincipale;
     public GameObject FSMenuParametre;
+    public GameObject FSMenuLevel;
+
+    [Header("Level Button")]
+    public Button[] ArLevelButton;
 
     private PlayerControl playerControl;
 
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+
+    private void Awake()
     {
-        //Initialise le menu.
-   
+
+        //Initialise le menu si c'est la scene du menu principale
+        if (SceneManager.GetActiveScene().buildIndex == 0)
+        {
             BtnRetour_OnClick();
+            btnRetourMainMenu_Onclick();
+            SetDoneLevel();
+        }
+        else
+        {
+            //Ferme le second menu
+            CGMenuParametre.alpha = 0;
+            CGMenuParametre.interactable = false;
+            CGMenuParametre.blocksRaycasts = false;
+
+            //Ferme le premier menu
+            CGMenuPrincipale.alpha = 0;
+            CGMenuPrincipale.interactable = false;
+            CGMenuPrincipale.blocksRaycasts = false;
+        }
 
     }
 
@@ -45,7 +67,18 @@ public class MenuManager : MonoBehaviour
     /// </summary>
     public void BtnPlay_OnClick()
     {
-        SceneManager.LoadScene(1);
+        //Ouvre le second menu
+        CGMenuLevel.alpha = 1;
+        CGMenuLevel.interactable = true;
+        CGMenuLevel.blocksRaycasts = true;
+
+        //Ferme le premier menu
+        CGMenuPrincipale.alpha = 0;
+        CGMenuPrincipale.interactable = false;
+        CGMenuPrincipale.blocksRaycasts = false;
+
+        //set le premier item selectionner
+        EventSys.firstSelectedGameObject = FSMenuLevel;
     }
 
     /// <summary>
@@ -136,7 +169,73 @@ public class MenuManager : MonoBehaviour
         playerControl.enabled = true;
 
         //Cache le menu
-        this.gameObject.SetActive(false);
+        //Ferme le second menu
+        CGMenuParametre.alpha = 0;
+        CGMenuParametre.interactable = false;
+        CGMenuParametre.blocksRaycasts = false;
 
+        //Ferme le premier menu
+        CGMenuPrincipale.alpha = 0;
+        CGMenuPrincipale.interactable = false;
+        CGMenuPrincipale.blocksRaycasts = false;
+
+    }
+
+    public void btnLVL01_Onclick()
+    {
+        //Load Scene
+        SceneManager.LoadScene(1);
+    }
+
+    public void btnLVL02_Onclick()
+    {
+        //Load Scene
+        SceneManager.LoadScene(2);
+    }
+    public void btnLVL03_Onclick()
+    {
+        //Load Scene
+        SceneManager.LoadScene(3);
+    }
+    public void btnLVL04_Onclick()
+    {
+        //Load Scene
+        SceneManager.LoadScene(4);
+    }
+
+    public void btnLVL05_Onclick()
+    {
+        //Load Scene
+        SceneManager.LoadScene(5);
+    }
+
+    public void btnRetourMainMenu_Onclick() 
+    {
+        //Ferme le second menu
+        CGMenuLevel.alpha = 0;
+        CGMenuLevel.interactable = false;
+        CGMenuLevel.blocksRaycasts = false;
+
+        //Ouvre le premier menu
+        CGMenuPrincipale.alpha = 1;
+        CGMenuPrincipale.interactable = true;
+        CGMenuPrincipale.blocksRaycasts = true;
+
+        EventSys.firstSelectedGameObject = FSMenuPrincipale;
+    }
+
+    public void SetDoneLevel()
+    {
+        //Pour chaque bouton dans la liste de bouton
+        for(int x = 0; x < ArLevelButton.Length; x++)
+        {
+            //Si le niveau est fais met les dernier niveau active et le prochain
+            ArLevelButton[x].interactable = x <= PlayerPrefs.GetInt("LevelDone");
+        }
+    }
+
+    public void BackToMainMenu_OnClick()
+    {
+        SceneManager.LoadScene(0);
     }
 }

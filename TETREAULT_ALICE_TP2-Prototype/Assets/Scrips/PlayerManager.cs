@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerManager : MonoBehaviour
 {
     //Variables
-    ParticleSystem ps;
+    public ParticleSystem ps;
     AudioSource sound;
     Rigidbody rb;
 
@@ -11,7 +11,6 @@ public class PlayerManager : MonoBehaviour
     void Start()
     {
         //Initialisation des variables
-        ps = GetComponent<ParticleSystem>();
         sound = GetComponent<AudioSource>();
         rb = GetComponent<Rigidbody>();
     }

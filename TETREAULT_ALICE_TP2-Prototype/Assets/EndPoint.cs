@@ -7,6 +7,7 @@ public class EndPoint : MonoBehaviour
     [Header("Ressources")]
     public int Level;
     public ParticleSystem MainParticleSystem;
+    public AudioSource SoundSource;
 
     float Timer=1;
     bool PlayParticule = false;
@@ -31,6 +32,7 @@ public class EndPoint : MonoBehaviour
         {
             //Joue les particules de victoire
             MainParticleSystem.Play();
+            SoundSource.Play();
             PlayParticule = true;
 
             //Change les dernier niveau terminer pour debloquer le prochain

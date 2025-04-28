@@ -4,6 +4,7 @@ public class Bumper : MonoBehaviour
 {
     [Header("Settings")]
     public float BounceForce;
+    public AudioSource SoundSource;
 
     Animator BumperAnimations;
 
@@ -30,6 +31,7 @@ public class Bumper : MonoBehaviour
             //Ajoute une force d'explosion au joueur
             Rigidbody playerRB = collision.rigidbody;
             playerRB.AddExplosionForce(BounceForce, collision.contacts[0].point, 5);
+            SoundSource.Play();
 
             //Joue la bounce animation
             BumperAnimations.SetTrigger("Bounce");

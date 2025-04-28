@@ -11,6 +11,7 @@ public class MenuManager : MonoBehaviour
     [Header("Fonctionnement Globale")]
     public EventSystem EventSys;
     public AudioMixer AudioMixerPrincipale;
+    public AudioSource Click;
 
     //Instenciations des parametres de menu
     [Header("CanvasGroup")]
@@ -67,6 +68,7 @@ public class MenuManager : MonoBehaviour
     /// </summary>
     public void BtnPlay_OnClick()
     {
+        Click.Play();
         //Ouvre le second menu
         CGMenuLevel.alpha = 1;
         CGMenuLevel.interactable = true;
@@ -86,6 +88,7 @@ public class MenuManager : MonoBehaviour
     /// </summary>
     public void BtnQuit_OnClick() 
     {
+        Click.Play();
         Application.Quit();
     }
 
@@ -94,6 +97,7 @@ public class MenuManager : MonoBehaviour
     /// </summary>
     public void BtnParametre_OnClick()
     {
+        Click.Play();
         //Ouvre le second menu
         CGMenuParametre.alpha = 1;
         CGMenuParametre.interactable = true;
@@ -114,6 +118,7 @@ public class MenuManager : MonoBehaviour
     /// </summary>
     public void BtnRetour_OnClick()
     {
+        Click.Play();
         //Ferme le second menu
         CGMenuParametre.alpha = 0;
         CGMenuParametre.interactable = false;
@@ -163,6 +168,7 @@ public class MenuManager : MonoBehaviour
 
     public void Resume()
     {
+        Click.Play();
         //recommence le temps
         Time.timeScale = 1;
         //Reactive les controle du joueur
@@ -184,33 +190,39 @@ public class MenuManager : MonoBehaviour
     public void btnLVL01_Onclick()
     {
         //Load Scene
+        Click.Play();
         SceneManager.LoadScene(1);
     }
 
     public void btnLVL02_Onclick()
     {
         //Load Scene
+        Click.Play();
         SceneManager.LoadScene(2);
     }
     public void btnLVL03_Onclick()
     {
         //Load Scene
+        Click.Play();
         SceneManager.LoadScene(3);
     }
     public void btnLVL04_Onclick()
     {
         //Load Scene
+        Click.Play();
         SceneManager.LoadScene(4);
     }
 
     public void btnLVL05_Onclick()
     {
         //Load Scene
+        Click.Play();
         SceneManager.LoadScene(5);
     }
 
     public void btnRetourMainMenu_Onclick() 
     {
+        Click.Play();
         //Ferme le second menu
         CGMenuLevel.alpha = 0;
         CGMenuLevel.interactable = false;
@@ -236,6 +248,7 @@ public class MenuManager : MonoBehaviour
 
     public void BackToMainMenu_OnClick()
     {
+        Click.Play();
         SceneManager.LoadScene(0);
     }
 }

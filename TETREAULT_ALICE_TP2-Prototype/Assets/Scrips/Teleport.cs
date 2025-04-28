@@ -9,6 +9,9 @@ public class Teleport : MonoBehaviour
     [Header("Etat")]
     public bool Destination = false;
 
+    [Header("Ressources")]
+    public AudioSource SoundSource;
+
     private void OnTriggerEnter(Collider other)
     {
 
@@ -41,10 +44,11 @@ public class Teleport : MonoBehaviour
         //Si ce teleporter est la n'est pas la destination
         if (!Destination) 
         {
-
+            SoundSource.Play();
             //Rend la destination comme une autre destination
             TeleportDestination.Destination = true;
             return TeleportDestination.transform.position;
+
         }
         else
         {
